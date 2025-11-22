@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    color: darkgreen;
+    text-align: center;
+}
+
+header {
+    background: darkgreen;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav a:hover { background: #2e8b57; }
+nav a.selected_menu { background: #555; font-weight: bold; }
+
+main {
+    margin: 100px auto 80px auto;
+    max-width: 900px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #ccc;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.main-menu {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+.main-menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.main-menu a.selected {
+    background: #555;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.side-menu {
+    background: #eee;
+    padding: 10px;
+    width: 120px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+.side-menu a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+}
+.side-menu a.selected {
+    background: #ccc;
+    font-weight: bold;
+}
+.table-area {
+    padding: 20px;
+    flex-grow: 1;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+.cell {
+    border: 1px solid #999;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

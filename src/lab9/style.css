@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: darkgreen;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav a:hover { background: #2e8b57; }
+nav a.selected_menu { background: #555; font-weight: bold; }
+
+main {
+    margin: 100px auto 80px auto;
+    max-width: 1010px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #ccc;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    color: darkgreen;
+    text-align: center;
+}
+
+form {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #fff;
+  max-width: 400px;
+}
+
+.element {
+  margin-bottom: 8px;
+}
+
+label {
+  margin-right: 10px;
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"] {
+  width: 150px;
+  padding: 5px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+select {
+  width: 250px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: 1px solid #999;
+  background: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ddd;
+}
